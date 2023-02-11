@@ -45,3 +45,7 @@ repos:
           - id: go-unit-tests
           - id: go-build
           - id: go-mod-tidy
+    - repo: https://github.com/crate-ci/typos
+      rev: v1.13.10
+      hooks:
+          - id: typos
