@@ -1,0 +1,16 @@
+# macOS
+**/.DS_Store
+
+# windows
+*.exe
+
+# Dev build
+build/
+tmp/
+.docker_build/
+
+# Test
+*.out
+
+# Environment variables
+.env

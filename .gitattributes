@@ -1,0 +1,3 @@
+go.sum merge=union
+Dockerfile linguist-vendored
+Makefile linguist-vendored
