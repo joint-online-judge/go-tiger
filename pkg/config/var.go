@@ -1,4 +1,4 @@
-package configs
+package config
 
 // will be set during compilation time via -X
 var (
