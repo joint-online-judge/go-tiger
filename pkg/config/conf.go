@@ -22,20 +22,10 @@ type conf struct {
 	RedisPassword string `env:"REDIS_PASSWORD" envDefault:""`
 	RedisDbIndex  int    `env:"REDIS_DB_INDEX" envDefault:"0"`
 
-	// asyncq config
-	// TODO: complete me
-
 	// toolchains config
-	ToolchainsConfig string `env:"TOOLCHAINS_CONFIG"     envDefault:"./toolchains/config.yaml"`
-	QUEUES           string `env:"QUEUES"     envDefault:"default"`
-	QUEUES_TYPE      string `env:"S3_USERNAME" envDefault:"official"`
-
-	// lakefs config
-	LakefsS3Domain string `env:"LAKEFS_S3_DOMAIN" envDefault:"s3.lakefs.example.com"`
-	LakefsHost     string `env:"LAKEFS_HOST"      envDefault:""`
-	LakefsPort     int    `env:"LAKEFS_PORT"      envDefault:"34766"`
-	LakefsUsername string `env:"LAKEFS_USERNAME"  envDefault:"lakefs"`
-	LakefsPassword string `env:"LAKEFS_PASSWORD"  envDefault:"lakefs"`
+	ToolchainsConfig string `env:"TOOLCHAINS_CONFIG" envDefault:"./toolchains/config.yaml"`
+	Queues           string `env:"QUEUES"            envDefault:"default"`
+	QueuesType       string `env:"QUEUES_TYPE"       envDefault:"official"`
 
 	// rollbar
 	RollbarAccessToken string `env:"ROLLBAR_ACCESS_TOKEN" envDefault:""`
