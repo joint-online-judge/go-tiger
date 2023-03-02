@@ -9,7 +9,7 @@ require (
 
 require (
 	github.com/antonfisher/nested-logrus-formatter v1.3.1
-	github.com/bytedance/sonic v1.8.2
+	github.com/bytedance/sonic v1.8.3
 	github.com/caarlos0/env/v7 v7.0.0
 	github.com/containerd/cgroups v1.1.0
 	github.com/hibiken/asynq v0.24.0
