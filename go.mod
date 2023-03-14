@@ -9,11 +9,11 @@ require (
 
 require (
 	github.com/antonfisher/nested-logrus-formatter v1.3.1
-	github.com/bytedance/sonic v1.8.3
+	github.com/bytedance/sonic v1.8.4
 	github.com/caarlos0/env/v7 v7.0.0
 	github.com/containerd/cgroups v1.1.0
 	github.com/hibiken/asynq v0.24.0
-	github.com/joint-online-judge/go-horse v0.0.0-20230228123128-7e4a65e7d0d5
+	github.com/joint-online-judge/go-horse v0.0.0-20230314074535-466804946b4b
 	github.com/opencontainers/runtime-spec v1.0.2
 	github.com/vmihailenco/msgpack/v5 v5.3.5
 )
