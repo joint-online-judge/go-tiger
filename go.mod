@@ -12,7 +12,7 @@ require (
 	github.com/bytedance/sonic v1.8.6
 	github.com/caarlos0/env/v7 v7.1.0
 	github.com/containerd/cgroups v1.1.0
-	github.com/hibiken/asynq v0.24.0
+	github.com/hibiken/asynq v0.24.1
 	github.com/joint-online-judge/go-horse v0.0.0-20230228123128-7e4a65e7d0d5
 	github.com/opencontainers/runtime-spec v1.0.2
 	github.com/vmihailenco/msgpack/v5 v5.3.5
@@ -27,9 +27,10 @@ require (
 	github.com/go-redis/redis/v8 v8.11.2 // indirect
 	github.com/godbus/dbus/v5 v5.0.4 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/golang/protobuf v1.5.0 // indirect
+	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.3 // indirect
+	github.com/redis/go-redis/v9 v9.0.3 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/spf13/cast v1.3.1 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
