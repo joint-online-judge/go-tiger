@@ -14,7 +14,7 @@ require (
 	github.com/containerd/cgroups v1.1.0
 	github.com/hibiken/asynq v0.24.0
 	github.com/joint-online-judge/go-horse v0.0.0-20230228123128-7e4a65e7d0d5
-	github.com/opencontainers/runtime-spec v1.0.2
+	github.com/opencontainers/runtime-spec v1.2.0
 	github.com/vmihailenco/msgpack/v5 v5.3.5
 )
 
